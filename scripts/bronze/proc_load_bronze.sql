@@ -12,7 +12,7 @@ Parameters:
         - This stored procedure does not accept any parameters or return any values.
 
 Usage Example:
-    EXEC bronze.load_bronze;
+    EXEC [bronze].[load_bronze];
 */
 
 CREATE OR ALTER PROCEDURE [bronze].[load_bronze] AS
@@ -156,6 +156,7 @@ BEGIN
         PRINT 'ERROR STATE: ' + CAST(ERROR_STATE() AS NVARCHAR);
         PRINT '==============================================';
     END CATCH
-END
+END;
+GO
 
 EXEC [bronze].[load_bronze];
