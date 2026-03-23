@@ -279,3 +279,49 @@ SELECT DISTINCT
     [maintenance]
 FROM
     [bronze].[erp_px_cat_g1v2];
+
+
+
+-- Gold layer
+-- Check the gender integration
+SELECT DISTINCT
+    [ci].[cst_gndr]
+    ,[ca].[gen]
+    ,CASE
+        WHEN [ci].[cst_gndr] != 'n/a' THEN [ci].[cst_gndr]
+        ELSE COALESCE([ca].[gen], 'n/a')
+    END
+FROM
+    [silver].[crm_cust_info] [ci]
+    LEFT JOIN [silver].[erp_cust_az12] [ca] ON [ca].[cid] = [ci].[cst_key]
+    LEFT JOIN [silver].[erp_loc_a101] [la] ON [la].[cid] = [ci].[cst_key]
+ORDER BY
+    1, 2;
+
+
+-- Check the uniqueness of the products table in the gold layer
+SELECT
+    [prd_key]
+    ,COUNT(*)
+FROM (
+    SELECT
+        [pi].[prd_id]
+        ,[pi].[cat_id]
+        ,[pi].[prd_key]
+        ,[pi].[prd_nm]
+        ,[pi].[prd_cost]
+        ,[pi].[prd_line]
+        ,[pi].[prd_start_dt]
+        ,[pc].[cat]
+        ,[pc].[subcat]
+        ,[pc].[maintenance]
+    FROM 
+        [silver].[crm_prd_info] AS [pi]
+        LEFT JOIN [silver].[erp_px_cat_g1v2] AS [pc] ON [pc].[id] = [pi].[cat_id]
+    WHERE
+        [pi].[prd_end_dt] IS NULL
+    ) t
+GROUP BY
+    [prd_key]
+HAVING
+    COUNT(*) > 1;
