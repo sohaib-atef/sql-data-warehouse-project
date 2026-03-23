@@ -26,12 +26,10 @@ The project follows the Medallion Architecture to transform fragmented data into
 
 ## Technical Desing Details
 
-## 🧠 Technical Design Details
-
 In this section, you can explore the underlying design logic and data modeling used in this project.
 
 <details>
-  <summary><b>📐 Dimensional Modeling (Star Schema)</b></summary>
+  <summary><b>Dimensional Modeling (Star Schema)</b></summary>
   <p align="center">
     <img src="./docs/images/dimensional-modeling.drawio.svg" alt="Star Schema">
   </p>
@@ -39,9 +37,8 @@ In this section, you can explore the underlying design logic and data modeling u
     This diagram illustrates the Gold Layer's Star Schema, featuring centralized Fact tables linked to descriptive Dimension tables for optimized analytical performance.
   </blockquote>
 </details>
-
 <details>
-  <summary><b>🔄 Data Lineage & Flow</b></summary>
+  <summary><b>Data Lineage & Flow</b></summary>
   <p align="center">
     <img src="./docs/images/data-flow.drawio.svg" alt="Data Flow">
   </p>
@@ -49,9 +46,8 @@ In this section, you can explore the underlying design logic and data modeling u
     A detailed view of how data moves from source systems through the Bronze and Silver transformations before reaching its final state.
   </blockquote>
 </details>
-
 <details>
-  <summary><b>🔗 System Integration Model</b></summary>
+  <summary><b>System Integration Model</b></summary>
   <p align="center">
     <img src="./docs/images/integration-model.drawio.svg" alt="Integration Model">
   </p>
