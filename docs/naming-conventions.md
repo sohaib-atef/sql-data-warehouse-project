@@ -1,10 +1,12 @@
+[← Back to Main README](../README.md)
+
 # **Naming Conventions**
 
 This document outlines the naming conventions used for schemas, tables, views, columns, and other objects in the data warehouse.
 
 ## **Table of Contents**
 
-1. [General Principles](#general-priciples)
+1. [General Principles](#general-principles)
 2. [Table Naming Conventions](#table-naming-conventions)
    - [Bronze Rules](#bronze-rules)
    - [Silver Rules](#silver-rules)
@@ -16,9 +18,9 @@ This document outlines the naming conventions used for schemas, tables, views, c
 
 ---
 
-## **General Priciples**
+## **General Principles**
 
-- **Naming Conventions**: use `snake_case` with lower case letters and uncerscore "`_`" to separate words.
+- **Naming Conventions**: use `snake_case` with lower case letters and underscore "`_`" to separate words.
 - **Language**: use English for all names.
 - **Reserved Words**: avoid using SQL reserved words as object names.
 
@@ -85,3 +87,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
   - Example:
     - `load_bronze` → Stored procedure for loading data into the Bronze layer.
     - `load_silver` → Stored procedure for loading data into the Silver layer.
+
+---
+
+[← Back to Main README](../README.md)
