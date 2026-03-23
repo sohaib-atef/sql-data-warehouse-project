@@ -83,4 +83,4 @@ sql-data-warehouse-project/
 
 ---
 
-**Quick Navigation**: [Naming Conventions](.\docs\naming-conventions.md) | [Data Catalog](.\docs\data-catalog.md)
+**Quick Navigation**: [Naming Conventions](./docs/naming-conventions.md) | [Data Catalog](./docs/data-catalog.md)
