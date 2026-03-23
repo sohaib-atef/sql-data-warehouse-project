@@ -189,13 +189,13 @@
         <mxCell id="QcP9UIi7tAF4UIujtS78-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=2;shadow=1;textShadow=0;fontColor=#003366;" value="crm_prd_info" vertex="1">
           <mxGeometry height="40" width="170" x="495" y="772.12" as="geometry" />
         </mxCell>
-        <mxCell id="QcP9UIi7tAF4UIujtS78-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666600;fontSize=14;fontStyle=2;textShadow=0;shadow=1;" value="erp_cust_az12" vertex="1">
+        <mxCell id="QcP9UIi7tAF4UIujtS78-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=2;textShadow=0;shadow=1;" value="erp_cust_az12" vertex="1">
           <mxGeometry height="40" width="170" x="495" y="924" as="geometry" />
         </mxCell>
-        <mxCell id="QcP9UIi7tAF4UIujtS78-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666600;fontSize=14;fontStyle=2;textShadow=0;shadow=1;" value="erp_loc_a101" vertex="1">
+        <mxCell id="QcP9UIi7tAF4UIujtS78-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=2;textShadow=0;shadow=1;" value="erp_loc_a101" vertex="1">
           <mxGeometry height="40" width="170" x="495" y="987.12" as="geometry" />
         </mxCell>
-        <mxCell id="QcP9UIi7tAF4UIujtS78-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#666600;fontSize=14;fontStyle=2;textShadow=0;shadow=1;" value="erp_px_cat_g1v2" vertex="1">
+        <mxCell id="QcP9UIi7tAF4UIujtS78-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=2;textShadow=0;shadow=1;" value="erp_px_cat_g1v2" vertex="1">
           <mxGeometry height="40" width="170" x="495" y="1050" as="geometry" />
         </mxCell>
         <mxCell id="QcP9UIi7tAF4UIujtS78-6" edge="1" parent="1" source="R2P1b0EeYigIicycGKyP-21" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;curved=1;" target="vIBWN1hOF6n6MVfGuzRU-5">
