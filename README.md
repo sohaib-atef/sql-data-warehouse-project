@@ -61,12 +61,9 @@ sql-data-warehouse-project/
 │── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 │── docs/                               # Project documentation and architecture details.
+│   │── images/                         # Contains all the images and diagrams used in this project
 │   │── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │   │── data-catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   │── data-architecture.drawio.svg    # Image for high-level overview of the Medallion architecture
-│   │── data-flow.drawio.svg            # Image for data lineage from source to gold layer
-│   │── dimensional-modeling.drawio.svg # Image for detailed Star Schema (Fact and Dimensions)
-│   │── integration-model.drawio.svg    # Image for entity mapping between CRM and ERP systems
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
