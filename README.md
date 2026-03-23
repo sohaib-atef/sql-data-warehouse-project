@@ -18,7 +18,7 @@ Key Focus Areas:
 
 The project follows the Medallion Architecture to transform fragmented data into a scalable analytical system.
 
-![Data Flow Diagram](./docs/data-architecture.drawio.svg)
+![Data Flow Diagram](./docs/images/data-architecture.drawio.svg)
 
 1. **Bronze Layer**: Raw data ingestion from CSV files (ERP & CRM) into SQL Server.
 2. **Silver Layer**: Data cleansing, standardization, and normalization to ensure integrity.
