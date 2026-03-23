@@ -198,7 +198,10 @@ BEGIN
             ,[bdate]
             ,[gen]
         )   SELECT
-                [cid]
+                CASE
+                    WHEN [cid] LIKE 'NAS%' THEN SUBSTRING([cid], 4, LEN([cid]))
+                    ELSE [cid]
+                END [cid]
                 ,CASE
                     WHEN [bdate] > GETDATE() THEN NULL
                     ELSE [bdate]
