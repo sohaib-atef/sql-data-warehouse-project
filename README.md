@@ -95,13 +95,13 @@ sql-data-warehouse-project/
 │── docs/                               # Project documentation and architecture details.
 │   │── images/                         # Contains all the images and diagrams used in this project
 │   │── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-│   │── data-catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   └── data-catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
-│   ├── init_database.sql               # Script for inializing the schema
+│   └── init_database.sql               # Script for inializing the schema
 │
 │── tests/                              # Test scripts and quality files
 │
